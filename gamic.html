@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        div {
+            border: 2px solid yellow;
+            background-color: aqua;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            /* transition: myanimation 4s linear 2s; */
+
+        }
+
+        /* .divv:hover{
+
+          transform: rotate(60deg);
+      } */
+        @keyframes myanimation {
+            0% {
+                transform: rotate(90deg);
+                 width: 40px;
+                height: 40px;
+            }
+
+            50% {
+                transform: scale(90deg);
+                 width: 40px;
+                height: 40px;
+
+            }
+
+
+            100% {
+            
+                transform: skew(360deg);
+                 width: 40px;
+                height: 40px;
+            }
+        }
+       div.divv:hover{
+          animation-name:  myanimation ;
+          animation-duration: 3s;
+  
+
+         }
+    </style>
+
+</head>
+
+<body>
+    <div class="divv"></div>
+    <div class="divv"></div>
+    <div class="divv"></div>
+    <div class="divv"></div>
+
+</body>
+
+</html>
